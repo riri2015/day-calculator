@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日数計算</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background"></div>
+  <main class="container">
+    <h1>Day Calculator</h1>
+    <p class="subtitle">日付を入力し日数を計算しましょう
+    </p>
+    <section class="cards">
+      <div class="card">
+        <h2>日付から計算</h2>
+        <label>開始日</label>
+        <input type="date" id="startDate">
+        <label>終了日</label>
+        <input type="date" id="endDate">
+        <button id="calcButton">計算する</button>
+        <div class="result">
+          <p id="monthResult">３ヶ月１３日</p>
+          <span id="dayResult">104日</span>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
